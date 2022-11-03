@@ -8,14 +8,10 @@ body {
     max-width: 100vw;
     height: 100%;
 }
-
 h1 {
     display: block;
     padding-left: 5%;
-    background-color: peachpuff;
-    
-
-    
+    background-color: peachpuff;    
 }
 nav {
     display: flex;
@@ -23,21 +19,21 @@ nav {
     justify-content:flex-end;
     background-color: peachpuff;
     padding: 1%;
-
 }
 a {
     padding-right: 5%;
 }
+a:hover {
+    text-shadow: 2px 2.5px 5px gray;
+}
+
 section {
     background-color: black;
-    display:flex;
-    flex-wrap:wrap;
-    max-height: 400px;
-
+    display: block;
 }
 #image-1 {
-    display: flex;
-    justify-content:left;
+    display: block;
+    margin: auto;
     width: auto;
     height: 400px;
 }
@@ -46,27 +42,49 @@ p {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    line-height: 110%;
+    padding: 2.5%;
+    max-width: 400px;
+    margin: auto;
 }
 article {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 #ESM-card {
     border: ridge; 
     border-width: 4.5px;
     border-color: peachpuff;
-    width: 100vw;
-    height: 200px;
-    margin: 2% 2% 0;
+    margin-top: 2.5%;
+    width: 90vw;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 2px 5px 20px black;
+}
+#ESM-header-preview {
+    max-height: 100vw;
+    width: 90vw;
 }
 .card {
     border: ridge; 
     border-width: 4.5px;
     border-color: peachpuff;
-    width: 45vw;
+
+    width: 90vw;
     height: 200px;
+    box-shadow: 2px 5px 20px black;
+    text-align: center;
+    overflow: hidden;
+}
+#HTML-refactor-project {
+    min-height: 100%;
+    width: 90vw;
+}
+footer {
+    padding: 3.5%;
+    text-align: center;
 }
