@@ -80,9 +80,10 @@ article {
     text-align: center;
     overflow: hidden;
 }
-#HTML-refactor-project {
+#movie-sele-card {
     min-height: 100%;
     width: 90vw;
+    
 }
 footer {
     padding: 3.5%;
